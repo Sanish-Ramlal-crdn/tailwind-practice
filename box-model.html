@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<!-- Tailwind default spacing scales: -1=4px -->
+<!-- w-full=width:100% -->
+<!-- p=padding; pt, pr, pb, pl=padding top, right, bottom, left -->
+<!-- py=padding top & bottom; px=padding left & right -->
+
+<!-- m=margin -->
+
+<!-- border-radius: rounded -sm, -md, -lg, -xl, -2xl, -3xl, -full -->
+
+<!-- bg-: background-color. Es: bg-[#ec4899], bg-pink-500-->
+<!-- border color: Es: border-red-100 -->
+
+<!-- text- :font color -->
+<!-- For font size, es: text-lg, text-[16px] -->
+<!-- Font size keywords: -xs, -sm, -base, -lg, -xl,...-9xl -->
+
+<!-- Font weight (100 to 900): font-thin, font-extralight, font-light, font-normal, font-medium, font-semibold, font-bold. font-extrabold, font-black -->
+<!-- Text alignment: text-left, text-center text-right, text-justify -->
+
+<!-- Media queries breakpoints: sm, md, lg, xl, 2xl -->
+ <!-- Dark mode: dark + class -->
+
+<body class="bg-pink-100 dark:bg-yellow-900">
+    <section class="m-8 p-4 border-2 rounded-lg p-4 bg-white dark:bg-black">
+        <img class="sm:h-[200px] sm:w-[200px] hidden sm:inline-block" src="apple-pie.jpg" />
+        <div class="inline-block px-8 align-middle ">
+            <p class="mb-4 text-yellow-600 text-sm font-bold">Item #0000001</p>
+            <p class="mb-1 text-xl dark:text-white">Classic Apple pie</p>
+            <p class="mb-4 text-xs dark:text-white">Our famous homemade apple pie</p>
+            <div>
+                <div class="inline-block border rounded-lg border-gray-400 px-2 py-1 bg-gray-100">
+                    <button class="pr-3 text-yellow-700 hover:text-yellow-500">-</button>
+                    <span>1</span>
+                    <button class="pl-3 text-yellow-700 hover:text-yellow-500">+</button>
+                </div>
+                <button class="pl-3 text-gray-400 underline hover:text-gray-300 tranistion duration-500">Delete</button>
+            </div>
+        </div>
+        <p class="inline-block text-2xl fonr-extrabold dark:text-white">$12.95</p>
+    </section>
+</body>
+
+</html>

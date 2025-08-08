@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<!-- Putting position relative in the parent component makes it so that the child components position relative to it -->
+
+<body class="m-0 bg-pink-100">
+    <header class="h-[60px] w-full bg-yellow-600"></header>
+    <section class="relative">
+        <img class="block h-[400px] w-full" src="apple-pie.jpg" />
+        <img class="absolute left-0 right-0 bottom-[80px] mx-auto h-[150px] w-[129px]" src="logo.jpg" />
+        <h2 class="mb-4 mt-16 text-center text-3xl font-extrabold">Pies of the week</h2>
+        <p class="text-center text-lg font-normal">Enjoy a section of our favourite pies</p>
+    </section>
+</body>
+
+</html>
