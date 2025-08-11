@@ -48,7 +48,7 @@
         </div>
     </nav>
 
-    <div class="flex flex-col w-full h-screen">
+    <div class="flex flex-col w-full h-screen ml-80">
         <nav class="h-14 bg-[#191C24] flex items-center justify-between px-4">
             <div class="flex items-center md:ml-80 sm:ml-60">
                 <input class="rounded-full px-4 lg:w-[40rem] md:w-[30rem] sm:w-[20rem] bg-black text-white" type="text"
@@ -56,9 +56,45 @@
                 <button
                     class="rounded-lg bg-[#198754] text-white ml-2 w-[5rem] h-10 shadow-black shadow-md">Search</button>
             </div>
-            <img src="user.jpg" class="bg-white rounded-full w-10 h-10"></img>
+            <img src="user.jpg" class="bg-white rounded-full w-10 h-10 border border-[#AF1763] border border-2"></img>
         </nav>
-        <div class="bg-black w-full flex-1"></div>
+        <div class="bg-black w-full h-screen">
+            <h1 class="text-white text-center text-3xl font-bold">Statistics</h1>
+            <div class="grid grid-cols-3 md:grid-cols-4 px-5 justify-items-center mt-5">
+                <div class="bg-[#191C24] white p-5 rounded-xl shadow-white shadow-sm">
+                    <h1 class="text-white font-bold text-2xl text-center">Montly Revenue</h1>
+                    <div class="flex flex-row justify-center items-center mt-6 mb-2">
+                        <h1 class="text-5xl text-white">$100.00</h1>
+                        <h2 class="ml-2 text-xl text-[#198754]">+3.5%</h2>
+                    </div>
+                    <p class="text-white text-4xl w-10 text-center m-auto bg-[#198754] rounded-full mt-2">&uarr;</p>
+                </div>
+                <div class="bg-[#191C24] white p-5 rounded-xl shadow-white shadow-sm">
+                    <h1 class="text-white font-bold text-2xl text-center">Potential growth</h1>
+                    <div class="flex flex-row justify-center items-center mt-6 mb-2">
+                        <h1 class="text-5xl text-white">$18.70</h1>
+                        <h2 class="ml-2 text-xl text-[#198754]">+5.0%</h2>
+                    </div>
+                    <p class="text-white text-4xl w-10 text-center m-auto bg-[#198754] rounded-full mt-2">&uarr;</p>
+                </div>
+                <div class="bg-[#191C24] white p-5 rounded-xl shadow-white shadow-sm">
+                    <h1 class="text-white font-bold text-2xl text-center">Expense saved</h1>
+                    <div class="flex flex-row justify-center items-center mt-6 mb-2">
+                        <h1 class="text-5xl text-white">$20.00</h1>
+                        <h2 class="ml-2 text-xl text-[#198754]">+1.0%</h2>
+                    </div>
+                    <p class="text-white text-4xl w-10 text-center m-auto bg-[#198754] rounded-full mt-2">&uarr;</p>
+                </div>
+                <div class="bg-[#191C24] white p-5 rounded-xl shadow-white shadow-sm">
+                    <h1 class="text-white font-bold text-2xl text-center">Daily sales</h1>
+                    <div class="flex flex-row justify-center items-center mt-6 mb-2">
+                        <h1 class="text-5xl text-white">$30.00</h1>
+                        <h2 class="ml-2 text-xl text-[#AB2E3C]">-1.5%</h2>
+                    </div>
+                    <p class="text-white text-4xl w-10 text-center m-auto bg-[#AB2E3C] rounded-full mt-2">&darr;</p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
