@@ -4,112 +4,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="output.css">
     <title>Book Central</title>
 </head>
 
-<body class="bg-[#1F2D3D]">
-    <div class="w-full bg-[#1F2D3D] flex justify-end items-center p-4">
-        <div class="flex flex-row bg-[#F4B400] w-[9rem] rounded-lg justify-center">
-            <img src="logos/bag.svg" class="p-3 w-14 h-14 hover:border-b-2 border-black hover:cursor-pointer">
-            <img src="logos/account.svg" class="p-3 w-14 h-14 hover:border-b-2 border-black hover:cursor-pointer">
+
+<body class="bg-darkblue">
+    <div class="w-full bg-darkblue flex justify-end items-center p-4">
+        <div class="flex flex-row bg-yellowbrand w-[9rem] rounded-lg justify-center">
+            <img src="logos/bag.svg" class="header-btn">
+            <img src="logos/account.svg" class="header-btn">
         </div>
     </div>
 
     <div class="flex flex-col mt-4 items-center justify center">
         <img src="logos/logo.png" alt="Book Logo">
-        <h1 class="mt-5 text-4xl text-[#2E2E2E] rounded-xl bg-[#FAFAF8] p-5 ">Book Central</h1>
+        <h1 class="mt-5 text-4xl text-darkgray rounded-xl bg-lightbg p-5">Book Central</h1>
         <button
-            class="text-xl rounded-lg p-4 mt-8 text-[#2E2E2E] bg-[#F4B400] hover:cursor-pointer hover:bg-[#E0A800]">Looking
-            for
-            a
-            book? Click
-            here</button>
+            class="text-xl rounded-lg p-4 mt-8 text-darkgray bg-yellowbrand hover:cursor-pointer hover:bg-yellowhover">
+            Looking for a book? Click here
+        </button>
     </div>
 
-    <div class="mt-10 p-3 bg-[#FAFAF8] rounded-lg w-[96%] p-5  mx-auto">
+    <div class="mt-10 bg-lightbg rounded-lg w-[96%] p-10 mx-auto">
         <h1 class="text-3xl font-bold">Welcome to Book Central</h1>
-        <p class="mt-5 text-lg text-[#2E2E2E]">Situated in the wonderful island of Mauritius, our book sanctuary
-            invites you to
-            embark on a
-            literary
-            odyssey unlike any other. With an eclectic assortment of genres ranging from gripping mysteries to
-            thought-provoking memoirs, you would spend seconds just to choose your new book. Whether you're a
-            seasoned bookworm or a curious newcomer, our shelves are a treasure chest of enchanting books. Let us
-            guide you as we endeavor to unveil the latest literary marvels and timeless classics, one page at a
-            time.</p>
+        <p class="mt-5 text-lg text-darkgray">
+            Situated in the wonderful island of Mauritius, our book sanctuary invites you to embark on a literary
+            odyssey unlike any other.
+            With an eclectic assortment of genres ranging from gripping mysteries to thought-provoking memoirs, you
+            would spend seconds
+            just to choose your new book. Whether you're a seasoned bookworm or a curious newcomer, our shelves are a
+            treasure chest of
+            enchanting books. Let us guide you as we endeavor to unveil the latest literary marvels and timeless
+            classics, one page at a time.
+        </p>
     </div>
 
     <div class="py-2 mt-20">
-        <h2 class="text-2xl rounded-lg bg-[#AAB2B7] text-[#2E2E2E] p-4 font-bold w-[8.5rem] mx-auto">Trending</h2>
+        <h2 class="text-2xl rounded-lg bg-grayaccent text-darkgray p-4 font-bold w-[8.5rem] mx-auto">Trending</h2>
     </div>
 
-    <div class="mt-20 w-[96%] bg-[#FAFAF8] rounded-lg flex flex-col items-center mx-auto">
-        <h2 class="text-3xl text-[#2E2E2E] text-center font-bold mt-5">Top Books</h2>
+    <div class="mt-20 w-[96%] bg-lightbg rounded-lg flex flex-col items-center mx-auto">
+        <h2 class="text-3xl text-darkgray text-center font-bold mt-5">Top Books</h2>
         <img src="logos/leaderboard.png" alt="leaderboard" class="m-auto mt-5 mb-10 h-80">
         <button
-            class="bg-[#F4B400] text-[#2E2E2E] text-lg mb-5 px-40 py-3 rounded-lg border border-[#2E2E2E] hover:cursor-pointer hover:bg-[#E0A800] hover:border-[#E0A800]">See
-            leaderboard</button>
+            class="bg-yellowbrand text-darkgray text-lg mb-5 px-40 py-3 rounded-lg border border-darkgray hover:cursor-pointer hover:bg-yellowhover hover:border-yellowhover">
+            See leaderboard
+        </button>
     </div>
 
     <div class="flex flex-row mt-10 justify-around w-[90%] mx-auto">
-        <div class="w-[25%] bg-[#FAFAF8]">
-            <h2 class="bg-[#FAFAF8] text-center h-15 p-2 text-2xl">Opening times</h2>
+        <div class="w-[25%] bg-lightbg">
+            <h2 class="bg-lightbg text-center h-15 p-2 text-2xl">Opening times</h2>
             <table class="w-full rounded-md p-1">
-                <tr class="bg-[#AAB2B7] h-10">
+                <tr class="bg-grayaccent h-10">
                     <th>Day</th>
                     <th>Time</th>
                 </tr>
-                <tr class="text-center bg-[#FAFAF8] text-[#2E2E2E] h-8">
+                <tr class="text-center bg-lightbg text-darkgray h-8">
                     <td>Monday</td>
                     <td>9:00 - 17:00</td>
                 </tr>
-                <tr class="text-center bg-[#AAB2B7] text-[#2E2E2E] h-8">
+                <tr class="text-center bg-grayaccent text-darkgray h-8">
                     <td>Tuesday</td>
                     <td>9:00 - 17:00</td>
                 </tr>
-                <tr class="text-center bg-[#FAFAF8] text-[#2E2E2E] h-8">
+                <tr class="text-center bg-lightbg text-darkgray h-8">
                     <td>Wednesday</td>
                     <td>9:00 - 17:00</td>
                 </tr>
-                <tr class="text-center bg-[#AAB2B7] text-[#2E2E2E] h-8">
+                <tr class="text-center bg-grayaccent text-darkgray h-8">
                     <td>Thursday</td>
                     <td>9:00 - 17:00</td>
                 </tr>
-                <tr class="text-center bg-[#FAFAF8] text-[#2E2E2E] h-8">
+                <tr class="text-center bg-lightbg text-darkgray h-8">
                     <td>Friday</td>
                     <td>9:00 - 17:00</td>
                 </tr>
-                <tr class="text-center bg-[#AAB2B7] text-[#2E2E2E] h-8">
+                <tr class="text-center bg-grayaccent text-darkgray h-8">
                     <td>Saturday</td>
                     <td>Closed</td>
                 </tr>
-                <tr class="text-center bg-[#FAFAF8] text-[#2E2E2E] h-8">
+                <tr class="text-center bg-lightbg text-darkgray h-8">
                     <td>Sunday</td>
                     <td>Closed</td>
                 </tr>
             </table>
         </div>
 
-
-        <div class="bg-[#FAFAF8] w-[25%] rounded-xl">
+        <div class="bg-lightbg w-[25%] rounded-xl">
             <h2 class="text-center text-2xl font-bold">Genres</h2>
             <div class="flex flex-col mt-5 gap-2 w-[60%] mx-auto">
-                <button
-                    class="bg-[#F4B400] h-10 rounded-lg border-[#2E2E2E] hover:bg-[#E0A800] hover:border-[#E0A800]">Fantasy</button>
-                <button
-                    class="bg-[#F4B400] h-10 rounded-lg border-[#2E2E2E] hover:bg-[#E0A800] hover:border-[#E0A800]">Horror</button>
-                <button
-                    class="bg-[#F4B400] h-10 rounded-lg border-[#2E2E2E] hover:bg-[#E0A800] hover:border-[#E0A800]">Mystery</button>
-                <button
-                    class="bg-[#F4B400] h-10 rounded-lg border-[#2E2E2E] hover:bg-[#E0A800] hover:border-[#E0A800]">Science
-                    Fiction</button>
-                <button
-                    class="bg-[#F4B400] h-10 rounded-lg border-[#2E2E2E] hover:bg-[#E0A800] hover:border-[#E0A800]">History</button>
+                <button class="btn-category">Fantasy</button>
+                <button class="btn-category">Horror</button>
+                <button class="btn-category">Mystery</button>
+                <button class="btn-category">Science Fiction</button>
+                <button class="btn-category">History</button>
             </div>
         </div>
     </div>
 
+    <footer class="mt-10  bg-grayaccent">
+        <h2 class="text-center font-bold mb-5 text-xl">Contact Information</h2>
+        <div class="flex flex-row justify-around">
+            <div class="flex flex-col gap">
+                <a href="#" class="text-darkgray underline mb-5">BookCentral@gmail.com</a>
+                <a href="#" class="text-darkgray mb-5">+230 666 6666</a>
+                <a href="#" class="text-darkgray underline mb-5">Map</a>
+            </div>
+            <div class="flex flex-col">
+                <a href="#" class="text-darkgray underline mb-5">Facebook</a>
+                <a href="#" class="text-darkgray underline mb-5">Instagram</a>
+                <a href="#" class="text-darkgray underline mb-5">X</a>
+            </div>
+        </div>
+
+    </footer>
 </body>
 
 </html>

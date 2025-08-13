@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-darkblue: #1f2d3d;
+  --color-yellowbrand: #f4b400;
+  --color-yellowhover: #e0a800;
+  --color-darkgray: #2e2e2e;
+  --color-lightbg: #fafaf8;
+  --color-grayaccent: #aab2b7;
+}
+
+@layer components {
+  .btn-category {
+    @apply bg-yellowbrand hover:bg-yellowhover border-darkgray hover:border-yellowhover h-10 rounded-lg border hover:cursor-pointer;
+  }
+}
+
+@layer components {
+  .header-btn {
+    @apply h-14 w-14 p-3 hover:cursor-pointer hover:border-b-2;
+  }
+}
